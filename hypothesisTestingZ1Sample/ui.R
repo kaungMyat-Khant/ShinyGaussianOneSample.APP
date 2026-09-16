@@ -20,7 +20,7 @@ fluidPage(
             numericInput("xbar", "Sample Mean (x bar):", value = 145),
             numericInput("s", "Sample Standard Deviation (s):", value = 15),
             numericInput("n", "Sample Size (n):", value = 40, min = 31),
-            numericInput("alpha", "Significance Level (alpha):", value = 0.05, min = 0.001, max = 0.20, step = 0.01),
+            numericInput("alpha", "Significance Level (alpha):", value = 0.05, min = 0.01, max = 0.20, step = 0.01),
             radioButtons("hypothesis", "Alternative Hypothesis:",
                          choices = c("Two-sided (Not equal)" = "equal",
                                      "Less than" = "less",
